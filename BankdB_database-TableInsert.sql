@@ -1,9 +1,5 @@
 
 ---Create Database for an online banking service Provider.
----This database is a part of back-end design from a older Standard Chartered Bank.
----Standard Chartered is a British multinational banking and financial services company 
----headquartered in London. It operates a network of more than 1,200 branches and outlets 
----across more than 70. Need to provide Design and Support to stockholders more than 2000 + servers,150+ Applications for this bank
 
 
 Go
