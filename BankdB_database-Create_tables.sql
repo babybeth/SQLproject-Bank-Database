@@ -147,24 +147,3 @@ Routing_Num VARCHAR(20)  NULL
 ) ON Transactions_FG
 GO
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
