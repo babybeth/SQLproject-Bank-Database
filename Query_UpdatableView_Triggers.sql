@@ -1,6 +1,6 @@
 /**********************************************************************************************************************************
 -----------------------------------------------------------------------------------------------------------------------------------
-File Name:Query_UpdatableView_Riggers
+File Name:Query_UpdatableView_Triggers
 Purpose: Update BankdB databse involving:
          * CONDITIONAL & DYNAMIC INSERTION OF DATA
          * AUTOMATED TRANSACTION BEHAVIOUR USING TRIGGERS
