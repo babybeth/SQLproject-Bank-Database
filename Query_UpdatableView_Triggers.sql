@@ -6,9 +6,9 @@ Purpose: Update BankdB databse involving:
          * AUTOMATED TRANSACTION BEHAVIOUR USING TRIGGERS
 -----------------------------------------------------------------------------------------------------------------------------------
 ***********************************************************************************************************************************/
-
+GO
 USE BankdB
-
+GO
 
 -----Create an updatable view for viewing branch details
 IF EXISTS (SELECT * FROM sys.objects WHERE name = 'BranchInfo_VIew')
