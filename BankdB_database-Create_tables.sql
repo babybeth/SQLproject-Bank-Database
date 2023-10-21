@@ -133,12 +133,6 @@ Routing_Num       VARCHAR(15) NULL UNIQUE,
 ) ON Accounts_FG
 GO
 
-ALTER TABLE Accounts_Schema.Accounts_Table ALTER COLUMN Customer_Id   VARCHAR(20) REFERENCES Customers_Schema.Customers_Table(Customer_Id) NOT NULL;
-
-ALTER TABLE Accounts_Schema.Accounts_Table ALTER COLUMN Customer_Id NOT NULL;
-ALTER TABLE Accounts_Schema.Accounts_Table  MODIFY Customer_Id NOT NULL;
-ALTER TABLE Accounts_Schema.Accounts_Table ADD CONSTRAINT Customer_Id NOT NULL;
-ALTER TABLE Accounts_Schema.Accounts_Table ALTER COLUMN Customer_Id   VARCHAR(20) REFERENCES Customers_Schema.Customers_Table(Customer_Id) NOT NULL;
 
 
 ---Create Transactions_Table with Transactions schema that has the details of all the transactions
